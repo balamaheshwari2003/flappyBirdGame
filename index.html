@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flappy Bird Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onkeydown="jump()" style="background:rgb(63, 62, 62)">
+    <div id="score" style="color: white;">Your Score is 0</div>
+    <div id="game">
+        <div id="pipe-container"> 
+            <div id="pipe-top">
+                <img src="toppipe.png" alt="">
+            </div>
+            <div id="pipe-gap"></div>
+            <div id="pipe-bottom">
+                <img src="bottompipe.png" alt="">
+            </div>
+        </div>
+        <div id="bird">
+            <img src="bird-size.png" alt="">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
